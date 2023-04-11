@@ -28,5 +28,5 @@ spec.path(
     ),
 )
 
-with open("./openAPI.json", "w") as outfile:
+with open("static/openAPI.json", "w") as outfile:
     json.dump(spec.to_dict(), outfile)
